@@ -1,0 +1,1 @@
+for x in $(compgen -abck); do echo $x; alias $x=""; done
